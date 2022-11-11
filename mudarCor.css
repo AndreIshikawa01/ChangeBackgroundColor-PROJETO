@@ -1,0 +1,130 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+#caixaCor{
+    width: 100%;
+    height: 200px;
+    border: 2px solid black;
+}
+
+#caixaCor h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.cores {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 10px;
+    background-color: white;
+}
+
+.cor {
+    width: 20%;
+    height: 100px;
+    margin: 5px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#Blue {
+    background-color: blue;
+    cursor: pointer;
+}
+
+#Aqua {
+    background-color: aqua;
+    cursor: pointer;
+}
+
+#Black {
+    background-color: Black;
+    color: white;
+    cursor: pointer;
+}
+
+#BlueViolet {
+    background-color: blueviolet;
+    cursor: pointer;
+}
+
+#Red {
+    background-color: red;
+    cursor: pointer;
+}
+
+#Yellow {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+#Orange {
+    background-color: orange;
+    cursor: pointer;
+}
+
+#Green {
+    background-color: green;
+    cursor: pointer;
+}
+
+#Pink {
+    background-color: pink;
+    cursor: pointer;
+}
+
+#Grey {
+    background-color: grey;
+    cursor: pointer;
+}
+
+#Magenta {
+    background-color: magenta;
+    cursor: pointer;
+}
+
+#LightBlue {
+    background-color: lightblue;
+    cursor: pointer;
+}
+
+#LightGreen {
+    background-color: lightgreen;
+    cursor: pointer;
+}
+
+#Lime {
+    background-color: lime;
+    cursor: pointer;
+}
+
+#Brown {
+    background-color: brown;
+    cursor: pointer;
+}
+
+#Crimson {
+    background-color: crimson;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 800px ) {
+
+.cor { width: 30%;}
+}
+
+@media (max-width: 540px ) {
+
+.cor { width: 46%;}
+}
